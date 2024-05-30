@@ -20,6 +20,7 @@ data <- data %>%
 ui <- navbarPage(
   theme = shinytheme("superhero"),
   "Mapping Civic Engagement: Voter Registration and Voter Demographics",
+  includeCSS("www/styles.css"),
   
   #Intro
   tabPanel("Introduction",

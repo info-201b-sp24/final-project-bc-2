@@ -1,0 +1,25 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  h1 {
+    color: #0559b3;
+    border-bottom: 2px solid #D5D8DC;
+    padding-bottom: 10px;
+  }
+  p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  a {
+    color: #1F618D;
+  }
+  .navbar {
+    background-color: #ff2929 !important;  /* Set background to white */
+    border: none;  /* Remove any border */
+  }
+  .navbar-brand {
+    font-size: 24px;
+    color: #1F618D !important;  /* Change to a visible color */
+  }
+  
