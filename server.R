@@ -1,4 +1,4 @@
-voter_table <- read.csv("Voter_City_Reg.csv")
+voter_table <- read.csv("city_demongraphics.csv")
 
 server <- function(input, output) {
   output$description <- renderText({
