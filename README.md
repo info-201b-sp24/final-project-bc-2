@@ -3,23 +3,13 @@
 
 Authors: Matthew Lalangan, Savanna Olsen, Henry Wiseman, Jonny Sung
 
-For the Final Project -- Data Wrangling, add the following to this code repository:
-
-* An R script file containing the code you used to create your unified dataset
-* Your unified and cleaned CSV dataset file
-* Data Nutrition Label (pdf)
-
 **Link: Link to your Shiny App here**
 
 # Introduction
 Civic engagement through voter registration is the foundation to a functioning democracy, where people can share their societal values and opinion. We pose the question, how do voter demographics among registered voters affect the level of civic engagement. In order to answer this issue, we will examine voter registration statistics from various cities and counties, and examine voter turnout by gender in order to uncover more general trends in civic engagement and public opinion. Identifying trends such as which counties, cities, and genders have the most civic engagement in Washington will provide great insight for active politicians and societal development.
 
 # Keywords
-Washington State
-Voter Demographics
-Counties
-Cities
-Gender
+Washington State, Voter Demographics, Counties, Cities, Gender
 
 # Potential Questions
 Which city has the highest voter turnout?
