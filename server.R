@@ -1,3 +1,8 @@
+library(shiny)
+library(rsconnect)
+library(ggplot2)
+library(dplyr)
+
 voter_table <- read.csv("city_demongraphics.csv")
 
 server <- function(input, output) {
