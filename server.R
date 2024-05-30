@@ -5,6 +5,7 @@ library(maps)
 library(mapdata)
 library(readr)
 library(viridis)
+library(tidyr)
 
 
 voter_table <- read.csv("city_demongraphics.csv")

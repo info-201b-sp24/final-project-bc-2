@@ -6,6 +6,7 @@ library(dplyr)
 library(maps)
 library(mapdata)
 library(viridis)
+library(tidyr)
 
 data <- read.csv("county demographics.csv")
 colnames(data) <- trimws(colnames(data))

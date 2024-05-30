@@ -5,8 +5,9 @@ account: lalangan
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 12095021
-bundleId: 8678385
+bundleId: 8678423
 url: https://lalangan.shinyapps.io/INFO201-Project-Civic-Engagement/
 version: 1
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: README.md
