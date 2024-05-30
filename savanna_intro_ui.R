@@ -73,8 +73,7 @@ introduction_tab <- tabPanel("Introduction",
                              p("Throughout the course of this challenge, there may be a variety of challenges and limitations that arise. One limitation would be that access to voter registration and election result data may be limited or restricted due to data protection regulations or simply due to human error. Missing data, especially in demographic variables, can pose challenges when analyzing voter demographics. Thus, imputing missing values or handling them appropriately is important to avoid bias in the analysis."),
                              p("One challenge that may need to be addressed would be the temporal nature of the project. Conducting a temporal analysis to understand how voter demographics and participation have changed over time requires careful consideration of data from multiple election cycles (e.g., do most areas stay republican or how have they changed?). Ensuring that the data is consistent across different time periods is essential for meaningful comparisons."),
                              p("As another challenge, we need to ensure that our data is used responsibly and in accordance with ethical standards. Given that access to voter"),
-imageOutput("vote_image"))
-
+imageOutput("vote_image")
 
 conclusion_tab <- tabPanel("Conclusion",
 h1("Conclusion"),
