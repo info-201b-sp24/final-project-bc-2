@@ -1,6 +1,19 @@
 library(shiny)
 library(shinythemes)
 library(leaflet)
+library(ggplot2)
+library(dplyr)
+library(maps)
+library(mapdata)
+library(viridis)
+
+data <- read.csv("county demographics.csv")
+colnames(data) <- trimws(colnames(data))
+
+wa_county_map <- map_data("county", region = "washington")
+data <- data %>% 
+  mutate(subregion = tolower(County)) %>% 
+  select(subregion, Female, Male, Other, Grand.Total)
 
 # Define UI
 ui <- navbarPage(
@@ -31,6 +44,21 @@ ui <- navbarPage(
              mainPanel(
                verbatimTextOutput("map_description"),
                leafletOutput("votesMap")
+             )
+           )
+  ),
+  
+  # County Demographics Tab
+  tabPanel("County Demographics",
+           sidebarLayout(
+             sidebarPanel(
+               selectInput("county", "Select a County:", 
+                           choices = unique(data$subregion))
+             ),
+             mainPanel(
+               verbatimTextOutput("bar_description"),
+               plotOutput("distPlot"),
+               plotOutput("mapPlot")
              )
            )
   )
