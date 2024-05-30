@@ -17,6 +17,7 @@ data <- data %>%
   select(subregion, Female, Male, Other, Grand.Total)
 
 server <- function(input, output, session) {
+  
   # Description for City Voter Counts
   output$description <- renderText({
     paste(" In a state election, certain counties and cities can carry a very", "\n",
